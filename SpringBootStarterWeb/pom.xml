@@ -11,9 +11,17 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<version>1.4.2.RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.12</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
-	<!-- Define the maven complier plug in so that the annoying little cross will vanish from your project icon. -->
-	<!-- Define the JDK version as 1.8 so as to prevent maven from using JDK 1.5 by default. -->
+	<!-- Define the maven complier plug in so that the annoying little cross 
+		will vanish from your project icon. -->
+	<!-- Define the JDK version as 1.8 so as to prevent maven from using JDK 
+		1.5 by default. -->
 	<build>
 		<plugins>
 			<plugin>
